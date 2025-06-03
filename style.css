@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+        font-size: larger;
+        color: red;
+    }
+}
+
+
+section{
+
+    display: flex;
+    nav{
+        width: 200px;
+        height: 100vh;
+        border: 1px solid black;
+        .menu{
+            padding: 30px 45px;
+            
+            ul{
+                display:flex;
+                justify-content:center;
+                flex-direction:column;
+
+                li{
+                    align-self: center;
+                    list-style: none;
+                    padding:20px 0px;
+                }
+            }
+        }
+    }
+
+    .content{
+        width: 100vmax;
+        height: 100vh;
+        background-color: red;
+        display: grid;
+
+        .card{
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+        }
+    }
+}

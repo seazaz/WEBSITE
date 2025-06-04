@@ -1,3 +1,3 @@
 console.log("Hello, World!");
-console.log("HALLO")
-let a = 100
+console.log("HALLO");
+let a = 100;
